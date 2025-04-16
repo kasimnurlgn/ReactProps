@@ -1,0 +1,38 @@
+import React from "react";
+import img1 from "../../assets/icon-phase-1.png";
+
+const PhaseCardStatic = () => {
+  return (
+    <div className="container border my-5 mx-auto rounded">
+      <div className="row d-flex justify-content-between align-items-center my-3">
+        <div className="col-12 col-md-4 border-end text-center">
+          <img
+            src={img1}
+            alt="Icon for Phase 1: Building Static Websites"
+            className="img-fluid"
+          />
+        </div>
+
+        <div className="col-12 col-md-8">
+          <div className="heading">
+            <h1 className="fs-4 fw-bolder">
+              Phase 1: Building static websites using HTML, CSS & Bootstrap
+            </h1>
+          </div>
+
+          <div className="description">
+            <p>
+              In this phase, you'll learn about the underlying structure of the
+              web - HTML. You'll also learn how to apply styling to a website
+              through CSS. To help you build websites faster and easier, you
+              will learn the Bootstrap framework. Along the way, you'll also
+              learn about VS Code editor and Chrome's Developer Tools.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PhaseCardStatic;
