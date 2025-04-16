@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "../../assets/icon-phase-1.png";
-
-const PhaseCardStatic = () => {
+import "./Phase1.css";
+const Phase1 = () => {
   return (
     <div className="container border my-5 mx-auto rounded">
       <div className="row d-flex justify-content-between align-items-center my-3">
@@ -35,4 +35,4 @@ const PhaseCardStatic = () => {
   );
 };
 
-export default PhaseCardStatic;
+export default Phase1;
