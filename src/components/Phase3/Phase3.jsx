@@ -1,14 +1,14 @@
 import React from "react";
-import img2 from "../../assets/icon-phase-2.png";
+import img3 from "../../assets/icon-phase-3.png";
 import { FaAngleRight } from "react-icons/fa";
-import "./Phase2.css";
-const Phase2 = () => {
+import "./Phase3.css";
+const Phase3 = () => {
   return (
-    <div className="container border mx-auto rounded phase">
+    <div className="container border my-5 mx-auto rounded phase">
       <div className="row d-flex justify-content-between align-items-center my-3">
         <div className="col-12 col-md-4 border-end  text-center">
           <img
-            src={img2}
+            src={img3}
             alt="Icon for Phase 1: Building Static Websites"
             className="img-fluid pe-0"
           />
@@ -17,18 +17,18 @@ const Phase2 = () => {
         <div className="col-12 col-md-7">
           <div className="heading">
             <h1 className="fs-4 fw-bolder">
-              Phase 2: Learn coding with JavaScript
+              Phase 3: Node, Express, MySql and React.js
             </h1>
           </div>
 
           <div className="description">
             <p>
-              JavaScript is among the most powerful and flexible programming
-              languages of the web. It powers the dynamic behavior on most
-              websites. In this phase of your course, you will learn programming
-              fundamentals using the latest JavaScript syntax. The concepts
-              covered in these lessons lay the foundation for using JavaScript
-              in any environment.
+              React is a JavaScript library, developed in 2013 by Facebook. It
+              is very popular and used on major sites including on Facebook,
+              Netflix, Khan Academy and many others. In this phase, we will
+              start from the fundamentals and go all the way up to building full
+              applications with custom styling. Along the way, you'll also learn
+              about npm, ES6, Node.js, Express and MySql.
             </p>
           </div>
         </div>
@@ -40,4 +40,4 @@ const Phase2 = () => {
   );
 };
 
-export default Phase2;
+export default Phase3;

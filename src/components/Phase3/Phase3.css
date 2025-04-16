@@ -1,0 +1,10 @@
+.phase {
+  cursor: pointer;
+}
+
+.heading h1:hover {
+  color: orange;
+}
+.angle-right:hover {
+  color: #ffa500;
+}
