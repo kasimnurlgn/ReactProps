@@ -1,7 +1,6 @@
 // Phase.jsx
 import React from "react";
 import { FaAngleRight } from "react-icons/fa";
-import "./PhaseCard.css";
 
 const PhaseCard = ({ image, title, description }) => {
   return (

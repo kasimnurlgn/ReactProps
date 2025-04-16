@@ -1,7 +1,7 @@
 import React from "react";
 import img2 from "../../assets/icon-phase-2.png";
 import { FaAngleRight } from "react-icons/fa";
-import "./Phase2.css";
+
 const Phase2 = () => {
   return (
     <div className="container border mx-auto rounded phase">
