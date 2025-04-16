@@ -6,15 +6,15 @@ const Phase1 = () => {
   return (
     <div className="container border my-5 mx-auto rounded phase">
       <div className="row d-flex justify-content-between align-items-center my-3">
-        <div className="col-12 col-md-4 border-end text-center">
+        <div className="col-12 col-md-4 border-end  text-center">
           <img
             src={img1}
             alt="Icon for Phase 1: Building Static Websites"
-            className="img-fluid"
+            className="img-fluid pe-0"
           />
         </div>
 
-        <div className="col-12 col-md-8">
+        <div className="col-12 col-md-7">
           <div className="heading">
             <h1 className="fs-4 fw-bolder">
               Phase 1: Building static websites using HTML, CSS & Bootstrap
@@ -31,8 +31,8 @@ const Phase1 = () => {
             </p>
           </div>
         </div>
-        <div className="col-12 col-md-1 d-flex align-items-center justify-content-center">
-          <FaAngleRight style={{ fontSize: "24px", color: "#000" }} />
+        <div className="col-12 col-md-1 d-flex align-items-center justify-content-center angle-right ">
+          <FaAngleRight />
         </div>
       </div>
     </div>

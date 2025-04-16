@@ -4,3 +4,7 @@
 .heading h1:hover {
   color: orange;
 }
+.angle-right {
+  color: black;
+  size: 45px !important;
+}
